@@ -198,5 +198,39 @@ align-self: center;
     .developers a:hover {
         color: #0056b3;
     }
+
+    /* CSS for the wheel and form */
+    .wheel {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-bottom: 15px;
+    border: 5px solid black;
+    background-image: conic-gradient(#FFD700 0deg 36deg, #FF8C00 36deg 72deg, #FF4500 72deg 108deg, #32CD32 108deg 144deg, #1E90FF 144deg 180deg, #4B0082 180deg 216deg, #FF1493 216deg 252deg, #FFD700 252deg 288deg, #FF8C00 288deg 324deg, #FF4500 324deg 360deg);
+    transition: transform 4s ease-out;
+    }
+
+    .spinning {
+    transform: rotate(3600deg);
+    }
+
+    /* General form styles */
+    form {
+    max-width: 400px;
+    margin: 0 auto;
+    }
+
+    label {
+    display: block;
+    margin: 10px 0 5px;
+    }
+
+    input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    }
+
     
     
